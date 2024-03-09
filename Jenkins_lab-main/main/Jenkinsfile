@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Compile the .cpp file using shell script
                 build 'PES2UG21CS200-1'
-                sh 'g++ Jenkins_lab-main/main/hello.cpp -o output' // Replace 'your_cpp_file.cpp' with your actual file name
+                sh 'g++ Jenkins_lab-main/main/samplefile.cpp -o output' // Replace 'your_cpp_file.cpp' with your actual file name
             }
             post {
                 success {
